@@ -1,6 +1,6 @@
 # Most Common Words
 
-Containerise Flask app to extract the most common words from multiple uploaded .txt files.
+Containerised Flask app to extract the most common words from multiple uploaded .txt files.
 
 ### Starting the App
 First you must build and run the docker container with the following commands
