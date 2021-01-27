@@ -7,6 +7,7 @@ RUN python -c "import nltk;nltk.download('punkt');nltk.download('stopwords')"
 
 # Make output dir and copy ove app.
 RUN mkdir -p output
+RUN mkdir -p word_counter/static/uploads
 COPY word_counter word_counter
 
 # Set env for flask run and then run.
