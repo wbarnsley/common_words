@@ -9,7 +9,7 @@ First you must build and run the docker container with the following commands
 docker build  -t app:latest .
 docker run --rm -p 5000:5000 -v $(pwd):/output app
 ```
-If you then go http://localhost:5000/ you will see the landing site to upload files.
+If you then go http://localhost:5000/ you will see the landing site to upload files. The example files can be found in the resources folder.
 Changing the Top N paramtes controls the number of common words returned, and additional 
 stopwords can be added. These stopwords should be comma-separated, although the app has 
 methods to ensure the correct format.
