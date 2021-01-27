@@ -6,7 +6,7 @@ Containerised Flask app to extract the most common words from multiple uploaded 
 First you must build and run the docker container with the following commands
 
 ```
-docker build  -t app:latest .
+docker build -t app:latest .
 docker run --rm -p 5000:5000 -v $(pwd):/output app
 ```
 If you then go http://localhost:5000/ you will see the landing site to upload files. The example files can be found in the resources folder.
