@@ -19,7 +19,7 @@ When you click submit you will be taken to an output site displaying the results
 saved to the directory where the app is run from.
 
 ### Testing Suite
-In order to run the test suite, which include pytest, bandit and flake8 simply install tox and run it as per the below 
+In order to run the test suite, which include pytest, bandit and flake8 simply install tox and run it in the same directory as tox.ini as per the below 
 commands.
 ```
 pip install tox
