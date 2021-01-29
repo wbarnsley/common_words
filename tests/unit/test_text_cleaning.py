@@ -38,7 +38,6 @@ def test_adding_stopwords(additional_words, expected):
         ("one, two", ["one", ",", "two"]),
         ("test. test.", ["test", ".", "test", "."]),
         ("", []),
-        # (1, []),
         ("I'm a test", ["I", "'m", "a", "test"]),
     ],
 )

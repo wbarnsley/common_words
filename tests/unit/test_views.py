@@ -9,7 +9,7 @@ def test_get_indexa(app, client):
     assert res.status_code == 200
 
 
-def test_post_index(tmpdir, app, client):
+def test_post_index(app, client):
     """Test post request to app."""
     file_name = "fake-text-stream.txt"
     data = {
@@ -22,5 +22,4 @@ def test_post_index(tmpdir, app, client):
 
     assert response.status_code == 200
 
-    # assert len(os.listdir(tmpdir)) == 1
     assert len(os.listdir(app.config["OUTPUT_FOLDER"])) == 1

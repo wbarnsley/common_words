@@ -1,6 +1,5 @@
 """Test functions to fetch files."""
 import os
-from pathlib import Path
 
 import pytest
 
@@ -14,7 +13,7 @@ from word_counter.src.file_utils import (
 )
 
 
-def test_get_files(child_path: Path):
+def test_get_files(child_path):
     """Test that the files returned are those expected."""
     files = get_files(child_path)
 
