@@ -65,8 +65,6 @@ def create_app():
 
             df.to_csv(output_name, index=False)
 
-            print("aa")
-
             delete_files(app.config["UPLOAD_FOLDER"])
 
             return make_response(
