@@ -51,7 +51,6 @@ def test_cleaner_tokenise(text, expected):
     [
         ("TEST test", "test test"),
         ("test test", "test test"),
-        # (None, None),
     ],
 )
 def test_cleaner_lower(text, expected):

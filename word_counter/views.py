@@ -3,7 +3,6 @@ import os
 
 from flask import Flask, make_response, render_template, request
 
-# from word_counter import app
 from word_counter.src.file_utils import (
     delete_files,
     get_files,
